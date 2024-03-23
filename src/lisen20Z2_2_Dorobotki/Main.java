@@ -42,13 +42,14 @@ public class Main {
             proverkaAuthor= book.get("author").toString();
             proverkaYear =  book.get("year").toString();
             proverkaTitle = book.get("title").toString();
+            if (proverkaAuthor.equalsIgnoreCase(k) & proverkaYear.equalsIgnoreCase(k2) )
+            {
+
+                System.out.println("Name Title:" + proverkaTitle);
+            }
 
         }
-        if (proverkaAuthor.equalsIgnoreCase(k) & proverkaYear.equalsIgnoreCase(k2) )
-        {
 
-            System.out.println("Name Title:" + proverkaTitle);
-        }
 
 
 
