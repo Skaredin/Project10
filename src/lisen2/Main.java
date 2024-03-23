@@ -30,6 +30,7 @@ public class Main {
                 System.out.println("\nTekusii element: " + node.getNodeName());
                 if (node.getNodeType() == Node.ELEMENT_NODE) {
                     Element element = (Element) node;
+
                     System.out.println("Name kniga:" + element.getElementsByTagName("title").item(0).getTextContent());
                     System.out.println("Avtor:" + element.getElementsByTagName("author").item(0).getTextContent());
                     System.out.println("God izdania: " + element.getElementsByTagName("year").item(0).getTextContent());
