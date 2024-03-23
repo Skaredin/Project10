@@ -11,14 +11,14 @@ public class Main {
 
         JSONObject book1 = new JSONObject();
 
-        book1.put("title"," Voina");
-        book1.put("author"," Voina");
-        book1.put("year", 1999);
+        book1.put("title","Anime");
+        book1.put("author","Vladika vselennoi");
+        book1.put("year", 9999);
 
         JSONObject book2 = new JSONObject();
 
-        book2.put("title"," title");
-        book2.put("author"," author");
+        book2.put("title","Syrovaia voina");
+        book2.put("author","Sunduit");
         book2.put("year", 1999);
 
         books.add(book1);

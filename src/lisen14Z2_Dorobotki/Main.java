@@ -46,7 +46,7 @@ public class Main {
                 String proverkaTitle = "";
                 if (node.getNodeType() == Node.ELEMENT_NODE) {
                     Element element = (Element) node;
-                    proverkaAuthor = element.getElementsByTagName("author").item(0).getTextContent();
+                    proverkaAuthor =     element.getElementsByTagName("author").item(0).getTextContent();
                     proverkaYear = element.getElementsByTagName("year").item(0).getTextContent();
                     proverkaTitle = element.getElementsByTagName("title").item(0).getTextContent();
 
