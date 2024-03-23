@@ -62,6 +62,8 @@ public class Main {
             javax.xml.transform.dom.DOMSource source = new DOMSource(doc);
             javax.xml.transform.stream.StreamResult result = new javax.xml.transform.stream.StreamResult(new File("src/lisen1/example1/example.html"));
             transformer.transform(source, result);
+            javax.xml.transform.stream.StreamResult result2 = new javax.xml.transform.stream.StreamResult(new File("src/lisen11Z2/example.html"));
+            transformer.transform(source, result2);
             System.out.println("Ok");
 
 
