@@ -8,7 +8,8 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.dom.DOMSource;
 import java.io.File;
 
-public class Main {public static void main(String[] args) {
+public class Main {
+    public static void main(String[] args) {
     try {
         DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder docBuilder = docFactory.newDocumentBuilder();

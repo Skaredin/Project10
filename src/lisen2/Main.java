@@ -32,7 +32,7 @@ public class Main {
                     Element element = (Element) node;
                     System.out.println("Name kniga:" + element.getElementsByTagName("title").item(0).getTextContent());
                     System.out.println("Avtor:" + element.getElementsByTagName("author").item(0).getTextContent());
-                    System.out.println("God izdania: " + element.getElementsByTagName("year").item(6).getTextContent());
+                    System.out.println("God izdania: " + element.getElementsByTagName("year").item(0).getTextContent());
 
 
                 }
