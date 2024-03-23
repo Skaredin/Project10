@@ -64,7 +64,7 @@ public class Main {
             transformer.transform(source, result);
             javax.xml.transform.stream.StreamResult result2 = new javax.xml.transform.stream.StreamResult(new File("src/lisen11Z2/example.html"));
             transformer.transform(source, result2);
-            System.out.println("Ok");
+            System.out.println(tf);
 
 
         } catch (Exception ig) {

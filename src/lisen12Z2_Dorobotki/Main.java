@@ -68,10 +68,8 @@ public class Main {public static void main(String[] args) {
         transformer.setOutputProperty(javax.xml.transform.OutputKeys.STANDALONE, "Yes");
         transformer.setOutputProperty(javax.xml.transform.OutputKeys.INDENT, "Yes");
         javax.xml.transform.dom.DOMSource source = new DOMSource(doc);
-        javax.xml.transform.stream.StreamResult result = new javax.xml.transform.stream.StreamResult(new File("src/lisen1/example1/example2.html"));
+        javax.xml.transform.stream.StreamResult result = new javax.xml.transform.stream.StreamResult(new File("src/lisen12Z2_Dorobotki/example.html"));
         transformer.transform(source, result);
-        javax.xml.transform.stream.StreamResult result2 = new javax.xml.transform.stream.StreamResult(new File("src/lisen11Z2/example2.html"));
-        transformer.transform(source, result2);
         System.out.println("Ok");
 
 
