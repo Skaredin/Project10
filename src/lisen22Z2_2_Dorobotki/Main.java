@@ -3,8 +3,10 @@ package lisen22Z2_2_Dorobotki;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import org.w3c.dom.Element;
 
 import java.io.FileReader;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Main {
@@ -13,7 +15,7 @@ public class Main {
 
 
         try {
-            System.out.println("Поиск");
+            System.out.println("Удаление по автору");
             System.out.println("Автор");
             Scanner scanner2 = new Scanner(System.in);
             String k = scanner2.nextLine();
@@ -33,7 +35,7 @@ public class Main {
             String proverkaAuthor = "";
             String proverkaYear = "";
             String proverkaTitle = "";
-
+            int da = 0;
             for (Object o : jsonArray) {
                 JSONObject book = (JSONObject) o;
                 proverkaAuthor = book.get("author").toString();
@@ -41,8 +43,16 @@ public class Main {
                 proverkaTitle = book.get("title").toString();
                 if (proverkaAuthor.equalsIgnoreCase(k) & proverkaYear.equalsIgnoreCase(k2)) {
 
-                    System.out.println("Name Title:" + proverkaTitle);
+                    System.out.println("Тут чёт не получилось сделать:" + proverkaTitle);
+
+
+
+
+
+
+
                 }
+                da = da+1;
             }
 
 
