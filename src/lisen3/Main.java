@@ -17,8 +17,8 @@ public class Main {
 
         JSONObject book2 = new JSONObject();
 
-        book2.put("title"," Voina");
-        book2.put("author"," Voina");
+        book2.put("title"," title");
+        book2.put("author"," author");
         book2.put("year", 1999);
 
         books.add(book1);
