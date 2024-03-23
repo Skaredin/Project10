@@ -66,7 +66,8 @@ public class Main {
 
 
         } catch (Exception ig) {
-ig.printStackTrace();
+
+            ig.printStackTrace();
         }
     }
 }
